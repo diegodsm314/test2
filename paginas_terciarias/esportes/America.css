@@ -1,0 +1,98 @@
+.cabecalho{
+    border: solid green;
+    border-radius: 15px;
+    background-color: green;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1{
+    border: 0;
+    margin: 0;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+p{
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: rgb(178, 190, 0);
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Bangers', cursive;
+    color: black;
+    height: 100%;
+    background-color: rgb(184, 255, 184);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+p{
+    font-size: 19px;
+}
+
+.img{
+    display: block;
+    width: 550px;
+    height: 350px;
+    margin: auto
+}
+
+a{
+    color: rgb(1, 110, 1);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+footer{
+    border: solid green;
+    border-radius: 15px;
+    background-color: green;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.rodapeLink{
+    color: whitesmoke;
+}
+
+.rodapeLink:hover{
+    color: black;
+}

@@ -1,0 +1,105 @@
+body{
+    background-color: #D3D3D3;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.cabecalho{
+    border: solid;
+    border-radius: 15px;
+    color: black;
+    background-color: #4682B4;
+    text-align: center;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1:hover{
+    letter-spacing: 10px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+h1{
+    animation-name: animação;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: letter-spacing 1s ease;
+}
+
+@keyframes animação{
+    0%{
+        color: black;
+    }
+    25%{
+        color: rgb(122, 121, 121);
+    }
+    50%{
+        color: rgb(78, 78, 78);
+    }
+    75%{
+        color: rgb(65, 65, 65);
+    }
+    100%{
+        color: black;
+    }
+}
+
+ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    color: rgb(178, 190, 0);
+    cursor: pointer;
+}
+
+.Img{
+    float: left;
+    margin: 0px 10px 0px 0px;
+    border: solid black;
+    width: 350px;
+    height: 200px;
+}
+
+.links{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.links:hover{
+    color: rgb(207, 0, 0);
+    cursor: pointer;
+}
+
+.h3{
+    font-size: 20px;
+}
+
+.P{
+    font-size: 19px;
+}
+
+.rodape{
+    padding: 8px 0px 8px 0px;
+    border: solid;
+    border-radius: 15px;
+    color: black;
+    background-color: #4682B4;
+    text-align: center;
+}
